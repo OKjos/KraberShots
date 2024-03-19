@@ -1,0 +1,34 @@
+.header {
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hit-button, .miss-button {
+  flex-basis: 40%;
+}
+
+.score {
+  flex-basis: 20%;
+  text-align: center;
+}
+
+.second-container {
+  text-align: center;
+}
+
+.reset-container {
+  position: relative;
+  left: 47.5%;
+  top: 500px;
+}
+
+.reset-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
